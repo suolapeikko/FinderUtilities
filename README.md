@@ -25,7 +25,9 @@ Deployment target has been set to macOS 10.14 Mojave
 
 ## Links and kudos
 I read Apple's App Extension Programming Guide / Finder Sync:
+
 https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html
 
 I also studied Janne's excellent FinderMate example:
+
 https://github.com/jlehikoinen/FinderMate

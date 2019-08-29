@@ -24,4 +24,7 @@ The actual .app does not have a GUI, it's only functionality is to install the e
 Deployment target has been set to macOS 10.14 Mojave
 
 ## Links and kudos
-Blaa blaa blaa
+
+https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html
+
+

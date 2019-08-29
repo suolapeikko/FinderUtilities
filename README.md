@@ -7,6 +7,9 @@ FinderUtilities installs a Finder Extension to your Mac, which enables you to ea
 ## How to install FinderUtilities
 Just download the app, copy i to your /Applications directory and run it once to install the containing Finder extension. The first time you run the app, it opens up System Preferences > Extensions so that you can grant it rights.
 
+## Alternative way of installing the app extension
+Blaa, blaa, blaa
+
 ## How to use FinderUtilities
 Blaa blaa blaa
 

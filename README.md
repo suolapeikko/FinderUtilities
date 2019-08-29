@@ -13,5 +13,10 @@ Blaa blaa blaa
 ## How to remove FinderUtilities
 Kill the processes (FinderUtilities and RightClickExtension), then delete the FinderUtilities.app from your computer. After this, FinderUtilities disappears from System Preferences > Extensions.
 
+## Other useful info
+* The app is signed, sandboxed and 
+* The actual .app does not have a GUI, it's only functionality is to install the extension
+* Blaa
+
 ## Links and kudos
 Blaa blaa blaa

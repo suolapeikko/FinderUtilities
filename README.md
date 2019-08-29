@@ -14,9 +14,14 @@ Blaa blaa blaa
 Kill the processes (FinderUtilities and RightClickExtension), then delete the FinderUtilities.app from your computer. After this, FinderUtilities disappears from System Preferences > Extensions.
 
 ## Other useful info
-* The app is signed, sandboxed and 
-* The actual .app does not have a GUI, it's only functionality is to install the extension
-* Blaa
+The app is signed, sandboxed and notarized. It uses the following entitlements:
+
+`com.apple.security.files.user-selected.read-write`
+`com.apple.security.temporary-exception.files.home-relative-path.read-write`
+
+The actual .app does not have a GUI, it's only functionality is to install the extension.
+
+Deployment target has been set to macOS 10.14 Mojave
 
 ## Links and kudos
 Blaa blaa blaa

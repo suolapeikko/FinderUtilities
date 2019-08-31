@@ -7,6 +7,8 @@ FinderUtilities installs a Finder Extension to your Mac, which enables you to ea
 ## How to install FinderUtilities
 Just download the app, copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the app, it opens up System Preferences > Extensions so that you can grant it rights.
 
+![FinderUtilities System Preferences and Extensions](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png)
+
 ## Alternative way of installing the app extension
 You can also install and remove the extension using the actual extension bundled into the app.
 
@@ -21,6 +23,7 @@ To remove it, run this:
 ## How to use FinderUtilities
 When you use Finder, just right click (or control click), and you'll see the following options:
 
+![FinderUtilities Right-click](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_rightclick.png)
 
 
 ## How to remove FinderUtilities

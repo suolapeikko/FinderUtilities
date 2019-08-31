@@ -5,7 +5,7 @@
 FinderUtilities installs a Finder Extension to your Mac, which enables you to easily launch Terminal.app to the selected directory and create empty files in Finder's folder hierarchy.
 
 ## How to install FinderUtilities
-Just download the app, copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the app, it opens up System Preferences > Extensions so that you can grant it rights.
+Just download the app from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the app, it opens up System Preferences > Extensions so that you can enable it. See the pic below:
 
 ![FinderUtilities System Preferences and Extensions](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png)
 

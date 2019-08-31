@@ -5,7 +5,7 @@
 FinderUtilities is a macOS App Extension (Finder Extension), which enables you to easily launch Terminal.app to the selected directory and create empty files in Finder's folder hierarchy using right-click (or control-click). See chapter **How to use FinderUtilities** for more details.
 
 ## How to install FinderUtilities
-Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the pic below:
+Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the picture below:
 
 <img src="https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png" width="600">
 
@@ -20,7 +20,7 @@ To remove it, run this:
 
 `pluginkit -r FinderUtilities.app/Contents/PlugIns/RightClickExtension.appex/`
 
-For more information on distributing and installing application extensios for macOS, see: https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1
+For more information on distributing and installing application extensios for macOS, read [this].(https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
 
 ## How to use FinderUtilities
 After you have installed the extension, go to the Finder and if you right-click (or control-click) inside folder structure, you'll see the following options:

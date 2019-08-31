@@ -20,7 +20,7 @@ To remove it, run this:
 
 `pluginkit -r FinderUtilities.app/Contents/PlugIns/RightClickExtension.appex/`
 
-For more information on distributing and installing application extensios for macOS, read [this](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
+For more information on distributing and installing application extensios for macOS, read [Apple's App Extension Guide](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1).
 
 ## How to use FinderUtilities
 After you have installed the extension, go to the Finder and if you right-click (or control-click) inside folder structure, you'll see the following options:
@@ -45,10 +45,6 @@ The actual application does not have a GUI, it's only functionality is to instal
 Application's deployment target has been set to macOS 10.14 Mojave.
 
 ## Links and kudos
-See Apple's App Extension Programming Guide / Finder Sync for more details:
+See [Apple's App Extension Programming Guide / Finder Sync](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html) for more details
 
-https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html
-
-I also studied Janne's excellent FinderMate example:
-
-https://github.com/jlehikoinen/FinderMate
+I also studied Janne's [excellent FinderMate example](https://github.com/jlehikoinen/FinderMate).

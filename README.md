@@ -7,7 +7,7 @@ FinderUtilities is a macOS App Extension (Finder Extension), which enables you t
 ## How to install FinderUtilities
 Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the pic below:
 
-![FinderUtilities System Preferences and Extensions](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png)
+![FinderUtilities System Preferences and Extensions](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png | width=100)
 
 ## Alternative way of installing the App Extension
 You can also install and remove the extension using the actual extension bundled into the app.

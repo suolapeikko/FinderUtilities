@@ -9,7 +9,7 @@ Just download the application from releses (or compile it from the sources), cop
 
 ![FinderUtilities System Preferences and Extensions](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png)
 
-## Alternative way of installing the application extension
+## Alternative way of installing the App Extension
 You can also install and remove the extension using the actual extension bundled into the app.
 
 To install and approve the extension, run this:

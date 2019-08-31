@@ -7,7 +7,7 @@ FinderUtilities is a macOS App Extension (Finder Extension), which enables you t
 ## How to install FinderUtilities
 Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the pic below:
 
-<img src="https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png" width="500">
+<img src="https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_sysprefextensions.png" width="600">
 
 ## Alternative way of installing the App Extension
 You can also install and remove the extension using the actual extension bundled into the app.
@@ -25,7 +25,7 @@ For more information on distributing and installing application extensios for ma
 ## How to use FinderUtilities
 After you have installed the extension, go to the Finder and if you right-click (or control-click) inside folder structure, you'll see the following options:
 
-![FinderUtilities Right-click](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_rightclick.png)
+<img src="https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_rightclick.png" width="300">
 
 I guess the options speak for themselves. The other launches Terminal.app to the directory you are in, and the other option creates an empty text file (empty.txt) to the selected directory.
 

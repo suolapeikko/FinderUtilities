@@ -20,7 +20,7 @@ To remove it, run this:
 
 `pluginkit -r FinderUtilities.app/Contents/PlugIns/RightClickExtension.appex/`
 
-For more information on distributing and installing application extensios for macOS, read [this].(https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
+For more information on distributing and installing application extensios for macOS, read [this](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/ExtensionCreation.html#//apple_ref/doc/uid/TP40014214-CH5-SW1)
 
 ## How to use FinderUtilities
 After you have installed the extension, go to the Finder and if you right-click (or control-click) inside folder structure, you'll see the following options:

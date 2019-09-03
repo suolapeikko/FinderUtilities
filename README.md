@@ -45,6 +45,6 @@ The actual application does not have a GUI, it's only functionality is to instal
 Application's deployment target has been set to macOS 10.14 Mojave.
 
 ## Links and kudos
-See [Apple's App Extension Programming Guide / Finder Sync](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html) for more details.
+Read [Apple's App Extension Programming Guide / Finder Sync](https://developer.apple.com/library/archive/documentation/General/Conceptual/ExtensibilityPG/Finder.html)
 
-See [Janne's FinderMate example](https://github.com/jlehikoinen/FinderMate).
+Check [Janne's FinderMate example](https://github.com/jlehikoinen/FinderMate).

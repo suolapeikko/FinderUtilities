@@ -38,6 +38,7 @@ If you are running and building the application and it's extension in Xcode, you
 The applications is signed, sandboxed and notarized. It uses the following entitlements:
 
 `com.apple.security.files.user-selected.read-write`
+
 `com.apple.security.temporary-exception.files.home-relative-path.read-write`
 
 The actual application does not have a GUI, it's only functionality is to install the bundled application extension and to show the Extension approval window (if needed).

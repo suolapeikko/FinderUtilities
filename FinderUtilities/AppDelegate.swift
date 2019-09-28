@@ -21,7 +21,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if !FIFinderSyncController.isExtensionEnabled {
             FIFinderSyncController.showExtensionManagementInterface()
         }
-
+        
+        // Terminate the application, as it is not needed anymore
+        NSApplication.shared.terminate(self)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

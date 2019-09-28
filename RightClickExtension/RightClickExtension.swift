@@ -24,12 +24,37 @@ class FinderSync: FIFinderSync {
 
         // Produce a menu for the extension (to be shown when right clicking a folder in Finder)
         let menu = NSMenu(title: "")
-        menu.addItem(withTitle: "Open a Terminal window here", action: #selector(openTerminalClicked(_:)), keyEquivalent: "")
-        menu.addItem(withTitle: "Create a new text document here", action: #selector(createEmptyFileClicked(_:)), keyEquivalent: "")
+        menu.addItem(withTitle: "Open Terminal", action: #selector(openTerminalClicked(_:)), keyEquivalent: "")
+        menu.addItem(withTitle: "Create empty.txt", action: #selector(createEmptyFileClicked(_:)), keyEquivalent: "")
+        menu.addItem(withTitle: "Copy selected paths", action: #selector(copyPathToClipboard), keyEquivalent: "")
 
         return menu
     }
-    
+
+    /// Copies the selected file and/or directory paths to pasteboard
+    @IBAction func copyPathToClipboard(_ sender: AnyObject?) {
+        
+        guard let target = FIFinderSyncController.default().selectedItemURLs() else {
+            
+            
+            NSLog("Failed to obtain targeted URLs: %@")
+
+            return
+        }
+        
+        let pasteboard = NSPasteboard.general
+        pasteboard.declareTypes([NSPasteboard.PasteboardType.string], owner: nil)
+        var result = ""
+        
+        // Loop through all selected paths
+        for path in target {
+            result.append(contentsOf: path.relativePath)
+            result.append("\n")
+        }
+
+        pasteboard.setString(result, forType: NSPasteboard.PasteboardType.string)
+    }
+
     /// Opens a macOS Terminal.app window in the user-chosen folder
     @IBAction func openTerminalClicked(_ sender: AnyObject?) {
         
@@ -42,7 +67,7 @@ class FinderSync: FIFinderSync {
         
         let task = Process()
         task.executableURL = URL(fileURLWithPath: "/usr/bin/open")
-        task.arguments = ["-a", "terminal", "\(target)"]
+        task.arguments = ["-a", "/Applications/Utilities/Terminal.app", "\(target)"]
         
         do {
             
@@ -50,7 +75,7 @@ class FinderSync: FIFinderSync {
 
         } catch let error as NSError {
             
-            NSLog("Failed open Terminal.app: %@", error.description as NSString)
+            NSLog("Failed to open Terminal.app: %@", error.description as NSString)
         }
     }
 
@@ -66,8 +91,8 @@ class FinderSync: FIFinderSync {
         }
 
         var originalPath = target
-        let originalFilename = "empty"
-        var filename = "empty"
+        let originalFilename = "newfile"
+        var filename = "newfile.txt"
         let fileType = ".txt"
         var counter = 1
         

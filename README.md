@@ -2,7 +2,7 @@
 
 ![FinderUtilities logo image](https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_logo.png)
 
-FinderUtilities is a macOS App Extension (Finder Extension), which enables you to easily launch Terminal.app to the selected directory, create empty files in Finder's folder hierarchy and enables copying of selected file or directory paths to pasteboard (clipboard) using right-click (or control-click). See chapter **How to use FinderUtilities** for more details.
+FinderUtilities is a macOS App Extension (Finder Extension), which enables you to easily launch Terminal.app to the selected directory, create empty files in Finder's folder hierarchy and also enables copying of selected file or directory paths to the pasteboard (clipboard) using right-click (or control-click). See chapter **How to use FinderUtilities** for more details.
 
 ## How to install FinderUtilities
 Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder Extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the picture below:
@@ -27,7 +27,7 @@ After you have installed the extension, go to the Finder and if you right-click 
 
 <img src="https://github.com/suolapeikko/suolapeikko.github.io/blob/master/images/finderutilities_rightclick.png" width="300">
 
-I guess the options speak for themselves. The other launches Terminal.app to the directory you are in, and the other creates an empty text file (empty.txt) to the selected directory.
+I guess the options speak for themselves. The first option launches a Terminal.app to the directory you are in, the second creates an empty text file (empty.txt) to the selected directory and the third one enables you to copy one or more file and/or directory paths to the pasteboard (clipboard).
 
 ## How to remove FinderUtilities
 You might need to kill the process (RightClickExtension), then delete the FinderUtilities.app from your computer. After this, FinderUtilities disappears from the System Preferences > Extensions.

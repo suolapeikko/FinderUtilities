@@ -67,7 +67,7 @@ class FinderSync: FIFinderSync {
         
         let task = Process()
         task.executableURL = URL(fileURLWithPath: "/usr/bin/open")
-        task.arguments = ["-a", "/Applications/Utilities/Terminal.app", "\(target)"]
+        task.arguments = ["-a", "terminal", "\(target)"]
         
         do {
             

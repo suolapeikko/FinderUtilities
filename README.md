@@ -4,6 +4,8 @@
 
 FinderUtilities is a macOS App Extension (Finder Extension), which enables you to easily launch Terminal.app to the selected directory, create empty files in Finder's folder hierarchy and also enables copying of selected file or directory paths to the pasteboard (clipboard) using right-click (or control-click). See chapter **How to use FinderUtilities** for more details.
 
+For yet unknown reasons (related to PPPC / access to user folders) macOS Catalina seems to require FinderUtilities to have Full Disk Access rights in order to launch Terminal window to user's directories.
+
 ## How to install FinderUtilities
 Just download the application from releses (or compile it from the sources), copy it to your /Applications directory and run it once to install the containing Finder Extension. The first time you run the application, it opens up System Preferences > Extensions so that you can enable it. See the picture below:
 

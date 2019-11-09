@@ -51,6 +51,7 @@ class FinderSync: FIFinderSync {
             result.append(contentsOf: path.relativePath)
             result.append("\n")
         }
+        result.removeLast() // Remove trailing \n
 
         pasteboard.setString(result, forType: NSPasteboard.PasteboardType.string)
     }
